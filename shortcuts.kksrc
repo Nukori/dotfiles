@@ -1,0 +1,34 @@
+[Custom Commands][net.local.flameshot.desktop]
+Exec=flameshot gui --clipboard --accept-on-select
+Name=Screenshot to Clipboard
+
+[Custom Commands][net.local.playerctl-2.desktop]
+Exec=playerctl --player=%%any,spotify play-pause
+Name=play/pause any, then spotify
+
+[Custom Commands][net.local.playerctl-3.desktop]
+Exec=playerctl --player=spotify,%%any play-pause
+Name=play/pause spotify, then any
+
+[Custom Commands][net.local.playerctl-4.desktop]
+Exec=playerctl --player=spotify,%%any previous
+Name=Previous track spotfiy, then any
+
+[Custom Commands][net.local.playerctl.desktop]
+Exec=playerctl --player=spotify,%%any next
+Name=Next track spotify, then any
+
+[net.local.flameshot.desktop][Global Shortcuts]
+_launch=Meta+Shift+S
+
+[net.local.playerctl-2.desktop][Global Shortcuts]
+_launch=F2
+
+[net.local.playerctl-3.desktop][Global Shortcuts]
+_launch=F1
+
+[net.local.playerctl-4.desktop][Global Shortcuts]
+_launch=F6
+
+[net.local.playerctl.desktop][Global Shortcuts]
+_launch=F7
